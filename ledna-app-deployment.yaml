@@ -18,5 +18,10 @@ spec:
           image: 487620625686.dkr.ecr.eu-north-1.amazonaws.com/salim-ledna-app:4
           ports:
             - containerPort: 80
+
+          envFrom:
+            - secretRef:
+                name: postgres-secret
+
       imagePullSecrets:
         - name: ecr-secret
