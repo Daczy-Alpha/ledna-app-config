@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ledna-app
-          image: 487620625686.dkr.ecr.eu-north-1.amazonaws.com/salim-ledna-app:4
+          image: 487620625686.dkr.ecr.eu-north-1.amazonaws.com/salim-ledna-app:5
           ports:
             - containerPort: 80
 
